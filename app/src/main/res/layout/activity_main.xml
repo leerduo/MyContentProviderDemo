@@ -20,6 +20,25 @@
         android:layout_height="wrap_content"
         android:text="查询用户字典" />
 
+    <Button
+        android:id="@+id/insertUserDic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="插入用户字典" />
+
+    <Button
+        android:id="@+id/updateUserDic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更新用户字典" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteUserDic"
+        android:text="删除用户字典"
+        />
+
 
     <ListView
         android:id="@+id/list"
